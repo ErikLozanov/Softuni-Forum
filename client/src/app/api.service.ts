@@ -20,7 +20,7 @@ export class ApiService {
     const {appUrl} = environment;
     const limitFilter = limit ? `?limit=${limit}` : '';
     
-    return this.http.get<Post>(`${appUrl}/posts${limitFilter}`);
+    return this.http.get<Post[]>(`${appUrl}/posts${limitFilter}`);
   }
 
 }
