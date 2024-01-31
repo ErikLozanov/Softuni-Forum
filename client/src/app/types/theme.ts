@@ -2,11 +2,11 @@ import { UserId } from './user-id';
 
 export interface Theme {
   subscribers: string[];
-  posts: string[];
-  _i: string;
+  posts: object[];
+  _id: string;
   themeName: string;
   userId: UserId;
   created_at: string;
   updatedAt: string;
-  __v: string;
+  __v: number;
 }
