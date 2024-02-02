@@ -23,7 +23,15 @@ import { WelcomeComponent } from './welcome/welcome.component';
     HomeComponent,
     WelcomeComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, CoreModule, HttpClientModule, SharedModule, UserModule, ThemeModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    CoreModule,
+    HttpClientModule,
+    SharedModule,
+    UserModule,
+    ThemeModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
