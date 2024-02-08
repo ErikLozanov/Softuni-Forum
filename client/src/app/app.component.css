@@ -2,3 +2,9 @@
     display: flex;
     justify-content: center;
 }
+
+
+.app-nav-side {
+    display: inline-block;
+    margin: 10px;
+}
