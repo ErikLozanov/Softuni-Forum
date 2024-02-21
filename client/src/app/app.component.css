@@ -9,5 +9,6 @@
     margin: 10px;
     width: 100%;
     height: 100vh;
-    z-index: inherit;    
+    z-index: inherit;
+    text-indent: 5px;    
 }
