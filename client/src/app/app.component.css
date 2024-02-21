@@ -11,4 +11,5 @@
     height: 100vh;
     z-index: inherit;
     text-indent: 5px;    
+    padding: 5px 2px;
 }
