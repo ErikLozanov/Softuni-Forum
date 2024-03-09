@@ -15,3 +15,8 @@
     position: relative;
     text-indent: 2px;
 }
+
+
+.app-hero-side {
+    max-width: 200px;
+}
